@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/Crc32.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Trainset.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/CMindsetConfig.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/Crc32.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/CExplode.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Text.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/expat/ExpatImpl.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/NNTest/main.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/CExplode.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Neuron.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Neuron.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Network.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Text.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/CMindsetConfig.cpp</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/common/csv/csv.h</file>
+            <file>file:/home/rbross/myprojects/DataScience/mindset/nnengine/Network.h</file>
+        </group>
+    </open-files>
+</project-private>

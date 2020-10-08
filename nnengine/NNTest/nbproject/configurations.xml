@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../common/CExplode.h</itemPath>
+      <itemPath>../CMindsetConfig.h</itemPath>
+      <itemPath>../../common/Crc32.h</itemPath>
+      <itemPath>../../common/expat/ExpatImpl.h</itemPath>
+      <itemPath>../Network.h</itemPath>
+      <itemPath>../Neuron.h</itemPath>
+      <itemPath>../Text.h</itemPath>
+      <itemPath>../Trainset.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../common/CExplode.cpp</itemPath>
+      <itemPath>../CMindsetConfig.cpp</itemPath>
+      <itemPath>../../common/Crc32.cpp</itemPath>
+      <itemPath>../Network.cpp</itemPath>
+      <itemPath>../Neuron.cpp</itemPath>
+      <itemPath>../Text.cpp</itemPath>
+      <itemPath>../../common/csv/csv.h</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../common/expat</pElem>
+            <pElem>../../common</pElem>
+            <pElem>..</pElem>
+            <pElem>../../common/csv</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>expat</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../common/CExplode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../common/CExplode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/Crc32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../common/Crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/csv/csv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/expat/ExpatImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../CMindsetConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../CMindsetConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Neuron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Neuron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Trainset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../common/expat</pElem>
+            <pElem>../../common</pElem>
+            <pElem>..</pElem>
+            <pElem>../../common/csv</pElem>
+          </incDir>
+          <commandLine>-fopenmp</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>expat</linkerLibLibItem>
+            <linkerLibLibItem>gomp</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../common/CExplode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../common/CExplode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/Crc32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../common/Crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/csv/csv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../common/expat/ExpatImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../CMindsetConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../CMindsetConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Neuron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Neuron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Text.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Trainset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

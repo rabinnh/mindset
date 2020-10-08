@@ -1,0 +1,34 @@
+<MindSetNetwork>
+<Configuration layers="3">
+<Layer type="0">5</Layer>
+<Layer type="1">4</Layer>
+<Layer type="2">1</Layer>
+<AllowableError>.005</AllowableError>
+<LearnRate>.6</LearnRate>
+<Momentum>.6</Momentum>
+<UseRProp>1</UseRProp>
+<TrainingStatus>1</TrainingStatus>
+</Configuration>
+<SavedTrainingData>
+<Scaling>
+<Input>
+<Mean>.25</Mean>
+<StdDev>.55</StdDev>
+</Input>
+<Output>
+<Mean>.25</Mean>
+<StdDev>.55</StdDev>
+</Output>
+</Scaling>
+<Weights>
+.0002,.00221,.0034,22
+</Weights>
+</SavedTrainingData>
+</MindSetNetwork>
+
+
+
+
+
+
+
