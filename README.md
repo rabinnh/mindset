@@ -28,3 +28,8 @@ Include the network code in your project.  See the NNTest and NNSolvetest sub-pr
 Intended for Linux but works on Windows.
 
 This project requires the expat library
+
+## Documentation
+
+Once you fetch the repo locally, you click on mindset/nnengine/doxygen/html/index.html
+and view the C++ class documentation.
