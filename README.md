@@ -3,10 +3,11 @@
 Back propagation C++ network code for education and fun
 
 ## Description
-I started this project in 1994 after reading the Sept 1993 issue cover story in Scientific American explaining back-propagation
-neural networks.  I just ran across it in my local repo.
+I started this project in 1993 after reading a September 1992 article in Scientific American explaining back-propagation; "Neurons for Computers".
 
-There wasn't any code available at the time, so I worked it out myself from the mathematics in the article.  OVer the next 10
+https://www.scientificamerican.com/magazine/sa/1992/09-01/
+
+There wasn't any code available at the time, so I worked it out myself from the mathematics formulas in the article.  Over the next 10
 years I occasionally revisited and update the code - I learned about scaling inputs, quick prop, bias, etc.  All old hat today
 but not back then.  This code is written in C++ and gives a nice view into the internals of backpropagation networks.
 
